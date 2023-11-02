@@ -1,0 +1,37 @@
+body {
+    background: #FFFEF8;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: #3D3D3D;
+}
+
+.login-form h2 {
+    padding-bottom: 20px;
+}
+
+.login-form p {
+    padding-bottom: 10px;
+}
+
+.login-form a {
+    color: #3D3D3D;
+}
+
+.login-input {
+    border: none;
+    background: white;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.09);
+    width: 379px;
+    height: 51px;
+}
+
+#login-button {
+    border: none;
+    height: 36px;
+}
